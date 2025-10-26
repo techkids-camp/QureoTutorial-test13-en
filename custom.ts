@@ -10,6 +10,12 @@ namespace hiragana_agent {
         agent.teleportToPlayer();
     }
 
+    //% blockId=hiragana_agent_9
+    //% block="agent teleport to player test13 SUCCESS2"
+    export function teleportToPlayer2(): void {
+        agent.teleportToPlayer();
+    }
+
     //% blockId=hiragana_agent_7
     //% block="agent inspect $kind $direction"
     export function inspect(kind: AgentInspection, direction: SixDirection): number {
